@@ -3,7 +3,6 @@
 
 /**
  * Every key has 7 characters and 1 comma, easier to find and replace.
- * Note to self: KC_CAPS mapped to KC_ENT in /usr/share/X11/xkb/symbols/pc
  */
 
 // SFT_MODS cannot be a subset of GRV_MODS

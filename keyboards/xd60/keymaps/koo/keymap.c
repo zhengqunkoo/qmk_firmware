@@ -3,7 +3,6 @@
 
 /**
  * Every key has 7 characters and 1 comma, easier to find and replace.
- * Note to self: KC_CAPS mapped to KC_ENT in /usr/share/X11/xkb/symbols/pc
  */
 
 // SFT_MODS cannot be a subset of GRV_MODS
@@ -60,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QW] = LAYOUT_all(
       KC_GESC,KC_1   ,KC_2   ,KC_3   ,KC_4   ,KC_5   ,KC_6   ,KC_7   ,KC_8   ,KC_9   ,KC_0   ,KC_MINS,KC_EQL ,KC_BSPC,XXXXXXX,\
       KC_TAB ,KC_Q   ,KC_W   ,KC_E   ,KC_R   ,KC_T   ,KC_Y   ,KC_U   ,KC_I   ,KC_O   ,KC_P   ,KC_LBRC,KC_RBRC,        KC_BSLS,\
-      KC_ENT ,KC_A   ,KC_S   ,KC_D   ,KC_F   ,KC_G   ,KC_H   ,KC_J   ,KC_K   ,KC_L   ,KC_SCLN,KC_QUOT,XXXXXXX,        KC_ENT ,\
+      KC_CAPS,KC_A   ,KC_S   ,KC_D   ,KC_F   ,KC_G   ,KC_H   ,KC_J   ,KC_K   ,KC_L   ,KC_SCLN,KC_QUOT,XXXXXXX,        KC_ENT ,\
       KC_LSFT,XXXXXXX,KC_Z   ,KC_X   ,KC_C   ,KC_V   ,KC_B   ,KC_N   ,KC_M   ,KC_COMM,KC_DOT ,XXXXXXX,KC_SLSH,KC_UP  ,KC_DEL ,\
       KC_LCTL,KC_LGUI,KC_LALT,                        KC_SPC ,                        TO(_DP),MO(_QF),KC_LEFT,KC_DOWN,KC_RGHT),
 
@@ -89,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_DP] = LAYOUT_all(
       KC_DGRV,KC_D1  ,KC_D2  ,KC_D3  ,KC_D4  ,KC_D5  ,KC_D6  ,KC_D7  ,KC_D8  ,KC_D9  ,KC_D0  ,KC_DMIN,KC_DEQL,KC_BSPC,XXXXXXX,\
       KC_TAB ,KC_SCLN,KC_COMM,KC_DOT ,KC_P   ,KC_Y   ,KC_F   ,KC_G   ,KC_C   ,KC_R   ,KC_L   ,KC_SLSH,KC_DAT ,        KC_BSLS,\
-      KC_ENT ,KC_A   ,KC_O   ,KC_E   ,KC_U   ,KC_I   ,KC_D   ,KC_H   ,KC_T   ,KC_N   ,KC_S   ,KC_MINS,XXXXXXX,        KC_ENT ,\
+      KC_CAPS,KC_A   ,KC_O   ,KC_E   ,KC_U   ,KC_I   ,KC_D   ,KC_H   ,KC_T   ,KC_N   ,KC_S   ,KC_MINS,XXXXXXX,        KC_ENT ,\
       KC_LSFT,XXXXXXX,KC_QUOT,KC_Q   ,KC_J   ,KC_K   ,KC_X   ,KC_B   ,KC_M   ,KC_W   ,KC_V   ,XXXXXXX,KC_Z   ,KC_UP  ,KC_DEL ,\
       KC_LCTL,KC_LGUI,KC_LALT,                        KC_SPC ,                        TO(_QW),MO(_DF),KC_LEFT,KC_DOWN,KC_RGHT),
 
